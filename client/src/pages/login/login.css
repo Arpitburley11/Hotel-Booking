@@ -1,0 +1,43 @@
+.login {
+    border: 1px solid rgb(228, 224, 224);
+    border-radius: 5px;
+    margin: auto;
+    width: 15%;
+    padding: 10px;
+    position: absolute;
+    top: 35%;
+    left: 43%;
+  }
+
+.lContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.lInput{
+    height: 30px;
+    padding: 20px;
+    border: 1px solid rgb(228, 224, 224);
+    border-radius: 5px;
+}
+
+.lButton{
+    width: 100%;
+    border: none;
+    padding: 10px 20px;
+    background-color: #0071c2;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.lButton:disabled{
+    background-color: #0071c2;
+    cursor: not-allowed;
+}
+
+.err{
+    color: red;
+    font-size: 12px;
+}

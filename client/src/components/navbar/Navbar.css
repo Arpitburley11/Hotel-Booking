@@ -1,0 +1,36 @@
+.navbar{
+    height: 50px;
+    background-color: #003b95;
+    display: flex;
+    justify-content: center;
+}
+.navContainer{
+    width: 100%;
+    max-width: 72%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+    height: 20px;
+}
+.logo{
+    font-weight: 500;
+    font-size: x-large;
+}
+.navButton{
+    margin-left: 20px;
+    border: none;
+    padding: 10px 10px;
+    cursor: pointer;
+    color: #0f56b9;
+    font-weight: 600;
+    border-radius: 5px;
+}
+
+.hlIcon{
+    font-size: 35px;
+    padding-right: 20px;
+    color: whitesmoke;
+    cursor: pointer;
+}
